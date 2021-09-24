@@ -8,7 +8,7 @@ A way for dict limits (in a list.)
 ```py
 from main import MuliDicts 
 
-m = MuliDicts(per_dict=2)
+m = MuliDicts(per_dict=3)
 m.append({"m": 1, "e": 2, "a": 3})
 m.sort_dicts() # Sort it.
 print(m)
