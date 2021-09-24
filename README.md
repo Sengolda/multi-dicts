@@ -6,9 +6,9 @@ A way for dict limits (in a list.)
 
 ## Make sure the main.py is in the same directory
 ```py
-from main import MuliDicts 
+from main import MultiDicts
 
-m = MuliDicts(per_dict=3)
+m = MultiDicts(per_dict=3)
 m.append({"m": 1, "e": 2, "a": 3})
 m.sort_dicts() # Sort it.
 print(m)
