@@ -9,8 +9,8 @@ A way for dict limits (in a list.)
 from main import MuliDicts 
 
 m = MuliDicts(per_dict=2)
-m.append({"a": 1, "e": 2})
+m.append({"m": 1, "e": 2, "a": 3})
 m.sort_dicts() # Sort it.
 print(m)
->>> [{"a": 1}, {"e": 2}]
+>>> [{"m": 1}, {"e": 2, "a": 3}]
 ```
